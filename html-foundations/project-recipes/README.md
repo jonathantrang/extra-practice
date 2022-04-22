@@ -1,6 +1,6 @@
 <h1>HTML Project: Recipes</h1>
 
-<h2><a href="repos/extra-practice/html-foundations/project-recipes/index.html">Live Demo</a></h2>
+<h2><a href="https://jonathantrang.github.io/extra-practice/html-foundations/project-recipes/">Live Demo</a></h2>
 
 <h2>Description</h2>
 <p>A webpage where users can find recipes.</p>
