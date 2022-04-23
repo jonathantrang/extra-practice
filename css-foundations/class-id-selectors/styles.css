@@ -1,0 +1,31 @@
+* {
+  font-family: sans-serif;
+}
+
+.pink-background {
+  background-color: lightpink;
+}
+
+.verdana-text {
+  font-family: Verdana, DejaVu Sans, sans-serif;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.font-36px {
+  font-size: 36px;
+}
+
+.font-24px {
+  font-size: 24px;
+}
+
+.green-background {
+  background-color: lightgreen;
+}
+
+.bold {
+  font-weight: bold;
+}
