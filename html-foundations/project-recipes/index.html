@@ -4,29 +4,47 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="layout.css" />
     <title>Project: Recipes</title>
   </head>
 
-  <body>
-    <h1>My Recipes</h1>
-    <div>
-      <h3>Wraps</h3>
-      <div>
-        <a href="recipes/lean-crunchwrap-supreme.html"
-          >Lean Crunchwrap Supreme</a
-        >
+  <body class="container">
+    <div class="row">
+      <div class="column-100">
+        <h1 class="title center">My Favorite Macro-Friendly Recipes</h1>
       </div>
-      <div>
-        <a href="recipes/bulk-crunchwrap-supreme.html"
-          >Bulk Crunchwrap Supreme</a
-        >
+    </div>
+    <div class="row">
+      <div class="column-50">
+        <h2 class="subtitle center">For Cutting</h2>
+        <h3 class="food-type">Protein Shakes</h3>
+        <div>
+          <a class="foodlinks" href="recipes/lean-chug-jug.html"
+            >Lean Chug Jug</a
+          >
+        </div>
+        <h3 class="food-type">Wraps</h3>
+        <div>
+          <a class="foodlinks" href="recipes/lean-crunchwrap-supreme.html"
+            >Lean Crunchwrap Supreme</a
+          >
+        </div>
       </div>
-      <h3>Protein Shakes</h3>
-      <div>
-        <a href="recipes/lean-chug-jug.html">Lean Chug Jug</a>
-      </div>
-      <div>
-        <a href="recipes/bulk-chug-jug.html">Bulk Chug Jug</a>
+      <div class="column-50">
+        <h2 class="subtitle center">For Bulking</h2>
+        <h3 class="food-type">Protein Shakes</h3>
+        <div>
+          <a class="foodlinks" href="recipes/bulk-chug-jug.html"
+            >Bulk Chug Jug</a
+          >
+        </div>
+        <h3 class="food-type">Wraps</h3>
+        <div>
+          <a class="foodlinks" href="recipes/bulk-crunchwrap-supreme.html"
+            >Bulk Crunchwrap Supreme</a
+          >
+        </div>
       </div>
     </div>
   </body>

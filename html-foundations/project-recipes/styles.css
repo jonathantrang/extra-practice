@@ -1,0 +1,33 @@
+* {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.subtitle {
+  font-size: 28px;
+}
+
+.foodtype {
+  font-size: 24px;
+}
+
+.foodlinks {
+  font-size: 16px;
+  padding: 0 0 0 2rem;
+}
+
+.padding-top {
+  padding-top: 2rem;
+}
+
+.center {
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
